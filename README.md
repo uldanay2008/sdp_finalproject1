@@ -2,10 +2,6 @@
 
 Java 17+ console project. No external dependencies. Six coordinated design patterns.
 
-## Run
-Open the folder in IntelliJ IDEA, select JDK 17 or newer, mark `src` as Sources Root and run `Main.java`.
-Windows: `run.bat`. Linux/macOS: `bash run.sh`.
-
 ## Patterns
 | Pattern | Package | Roles |
 |---|---|---|
