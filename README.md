@@ -33,8 +33,4 @@ Main performs executable integration checks: all selection strategies, full trip
 
 ## Team Git workflow
 Each member must implement/review their own assigned work and commit under their own Git identity. Do not fabricate commits or contributions. Suggested ownership: member 1 Builder + Factory Method; member 2 Adapter + Facade; member 3 Strategy + Observer. Agree shared contracts first.
-Create a GitHub repository, then initialize locally, configure your actual identity, commit your work, add the actual remote URL and push. Other members clone, work on feature branches, commit their contributions and merge via pull requests. Verify `git shortlog -sne --all` and `git log --all --oneline --graph`.
-This download contains source code, not a published Git repository or evidence of team contributions.
 
-## Submission still required
-Prepare the PDF report with Introduction, Body, Conclusion, Further Work, source excerpts, actual application screenshots and UML diagrams. Submit report PDF, source ZIP and actual repository URL as instructed. Every student submits individually before the Moodle deadline. This archive is the code deliverable, not the completed report.
