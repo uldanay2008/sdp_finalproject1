@@ -1,10 +1,8 @@
 package structural.facade.subsystem;
-
 import creational.factorymethod.creator.BookingCreator;
 import creational.factorymethod.product.Booking;
 import creational.builder.product.Trip;
 import structural.adapter.target.FlightOffer;
-
 public final class HotelReservationService implements ReservationService {
     private final BookingCreator creator;
     private final java.math.BigDecimal rate;
