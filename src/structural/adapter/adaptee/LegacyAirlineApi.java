@@ -1,8 +1,4 @@
 package structural.adapter.adaptee;
-
-
-
-/** Simulated legacy supplier: round-trip fares in USD cents per traveler. */
 public final class LegacyAirlineApi {
     public record Fare(String code, String carrier, long cents, int minutes) { }
     public java.util.List<Fare> findTickets(String destination, String outbound, String inbound) {
