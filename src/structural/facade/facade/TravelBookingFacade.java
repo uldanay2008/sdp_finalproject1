@@ -1,11 +1,8 @@
 package structural.facade.facade;
-
 import creational.builder.product.Trip;
 import structural.adapter.target.*;
 import behavioral.strategy.context.OfferSelector;
 import structural.facade.subsystem.*;
-
-/** Coordinates simulated reservations; no real payments or external bookings. */
 public final class TravelBookingFacade {
     private final FlightProvider provider;
     private final OfferSelector selector;
