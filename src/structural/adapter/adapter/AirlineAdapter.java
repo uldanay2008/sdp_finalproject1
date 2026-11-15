@@ -1,9 +1,7 @@
 package structural.adapter.adapter;
-
 import structural.adapter.target.*;
 import structural.adapter.adaptee.LegacyAirlineApi;
 import creational.builder.product.Trip;
-
 public final class AirlineAdapter implements FlightProvider {
     private final LegacyAirlineApi api;
     public AirlineAdapter(LegacyAirlineApi api) { this.api = java.util.Objects.requireNonNull(api); }
